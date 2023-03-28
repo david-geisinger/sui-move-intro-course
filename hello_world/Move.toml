@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.0.1"
+
+[dependencies]
+Sui = { local = "../sui/crates/sui-framework/"}
+
+[addresses]
+hello_world =  "0x0"
+sui =  "0000000000000000000000000000000000000002"
+std =  "0000000000000000000000000000000000000001"

@@ -1,0 +1,22 @@
+---
+compiled_package_info:
+  package_name: hello_world
+  address_alias_instantiation:
+    hello_world: "0000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000002"
+  source_digest: 102799ED58E9DBC83B150690FF60A8BC7F1D9BDA33AA933E028EBEC626B34C4C
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
